@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>CV Kart - Burak Yiğit Solmaz</title>
+    <style>
+        body {
+            background-color: #1C1C1C;
+            font-family: Arial, sans-serif;
+            color: #E0E0E0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .kart {
+            background-color: #4A4A4A;
+            max-width: 800px;
+            margin: 40px auto;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        .kart-baslik h1 {
+            margin: 0;
+            font-size: 32px;
+            color: #14FAE2; 
+        }
+
+        .kart-alt {
+            background-color: #B0B0B0;
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 20px;
+            color: #1C1C1C;
+        }
+
+        .kart-alt h2 {
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-size: 22px;
+            color: #333333;
+            border-bottom: 2px solid #14FAE2; 
+            padding-bottom: 5px;
+        }
+
+        .kart-alt p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        ul.yazilim-dilleri {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul.yazilim-dilleri li {
+            background-color: #E0E0E0;
+            color: #1C1C1C;
+            margin: 5px 0;
+            padding: 10px 15px;
+            border-radius: 10px;
+            display: inline-block;
+			
+        }
+		.prenk{
+			 color: red !important;
+			}
+
+        @media (max-width: 600px) {
+            .kart {
+                padding: 20px;
+            }
+
+            .kart-baslik h1 {
+                font-size: 26px;
+            }
+
+            .kart-alt h2 {
+                font-size: 18px;
+            }
+
+            ul.yazilim-dilleri li {
+                padding: 8px 12px;
+            }
+			
+        }
+		
+    </style>
+</head>
+<body>
+    <div class="kart">
+        <div class="kart-baslik"><h1>Burak Yiğit Solmaz</h1></div>
+        <div class="kart-alt">
+            <h2>Ankara Üniversitesi Nallıhan MYO Öğrencisi</h2>
+            <h2>Ön Yazı</h2>
+            <p>Merhaba! Ben Burak Yiğit Solmaz. Ankara Üniversitesi Nallıhan Meslek Yüksek Okulu Bilgisayar Programcılığı bölümünde okumaktayım.</p> 
+			<p> Bu benim CV kart denemem.Burda sizlerle ileri seçicileri deniyerek öğrenicez:</p>
+			<p style="color: blue;">Ben maviyim (inline)</p>
+			<p class="prenk">Ben kırmızıyım (CSS sınıfı)</p>
+			<p class="prenk" style="color: blue;">Ben maviyim (Fakat yukarda kırmızının yanında önemli olduğu için olamicam.)</p>
+            <p class="prenk" style="color: blue!important;">Ben maviyim (Satır içinde önemli kullanıldı.) </p>
+            <h2>Dil Bilgisi</h2>
+            <ul class="yazilim-dilleri">
+                <li>Türkçe</li>
+                <li>İngilizce</li>
+            </ul>
+            <h2>Yetkinlikler</h2>
+            <ul class="yazilim-dilleri">
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>Bootstrap</li>
+                <li>C++</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
